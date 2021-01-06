@@ -5,8 +5,6 @@ maintainable Object-Oriented Software
 __Design pattern is well described reusable solution to common problem in
 software design and developement.__
 
----
-
 > ## Design Principle
 > * Program to an interface, not an implementation.
 > * Identify the aspects of your application that vary and separate them from
@@ -20,13 +18,9 @@ software design and developement.__
 > * Structural
 > * Behavioral
 
----
-
 ```
 Patterns aren't invented, they are discovered.
 ```
-
-
 
 ## Creational Design Patterns
 
