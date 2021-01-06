@@ -4,9 +4,10 @@ public class LazyDoubleCheckedLockingSingleton {
 
     private static LazyDoubleCheckedLockingSingleton uniqueInstance;
 
-    private LazyDoubleCheckedLockingSingleton() {}
+    private LazyDoubleCheckedLockingSingleton() {
+    }
 
-    public static LazyDoubleCheckedLockingSingleton getInstance(){
+    public static LazyDoubleCheckedLockingSingleton getInstance() {
         if (uniqueInstance == null) {
             synchronized (LazyDoubleCheckedLockingSingleton.class) {
                 if (uniqueInstance == null) {

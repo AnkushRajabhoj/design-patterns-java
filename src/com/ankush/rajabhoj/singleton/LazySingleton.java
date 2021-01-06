@@ -4,10 +4,11 @@ public class LazySingleton {
 
     private static LazySingleton uniqueInstance;
 
-    private LazySingleton() {}
+    private LazySingleton() {
+    }
 
-    public static LazySingleton getInstance(){
-        if (uniqueInstance == null){
+    public static LazySingleton getInstance() {
+        if (uniqueInstance == null) {
             uniqueInstance = new LazySingleton();
         }
         return uniqueInstance;

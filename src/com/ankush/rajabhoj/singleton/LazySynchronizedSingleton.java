@@ -4,10 +4,11 @@ public class LazySynchronizedSingleton {
 
     private static LazySynchronizedSingleton uniqueInstance;
 
-    private LazySynchronizedSingleton() {}
+    private LazySynchronizedSingleton() {
+    }
 
-    public static synchronized LazySynchronizedSingleton getInstance(){
-        if (uniqueInstance == null){
+    public static synchronized LazySynchronizedSingleton getInstance() {
+        if (uniqueInstance == null) {
             uniqueInstance = new LazySynchronizedSingleton();
         }
         return uniqueInstance;

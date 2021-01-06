@@ -8,7 +8,8 @@ public class EagerStaticBlockSingleton {
         uniqueInstance = new EagerStaticBlockSingleton();
     }
 
-    private EagerStaticBlockSingleton() {}
+    private EagerStaticBlockSingleton() {
+    }
 
     public static EagerStaticBlockSingleton getInstance() {
         return uniqueInstance;
