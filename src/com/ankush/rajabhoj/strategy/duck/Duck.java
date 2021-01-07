@@ -1,4 +1,4 @@
-package com.ankush.rajabhoj.strategy;
+package com.ankush.rajabhoj.strategy.duck;
 
 import com.ankush.rajabhoj.strategy.flying.FlyBehavior;
 import com.ankush.rajabhoj.strategy.quacking.QuackBehavior;
@@ -30,7 +30,7 @@ public abstract class Duck {
     }
 
     public void performSwim() {
-        System.out.println("All ducks float, even decoys!");
+        System.out.println("every thing floats");
     }
 }
 

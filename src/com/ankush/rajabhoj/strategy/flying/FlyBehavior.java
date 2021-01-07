@@ -1,4 +1,4 @@
-package com.ankush.rajabhoj.strategy;
+package com.ankush.rajabhoj.strategy.flying;
 
 public interface FlyBehavior {
     public void fly();

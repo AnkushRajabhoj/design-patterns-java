@@ -1,7 +1,7 @@
-package com.ankush.rajabhoj.strategy;
+package com.ankush.rajabhoj.strategy.quacking;
 
 public class Quack implements QuackBehavior {
     public void quack() {
-        System.out.println("Quack");
+        System.out.println("quack quack");
     }
 }

@@ -1,7 +1,7 @@
-package com.ankush.rajabhoj.strategy;
+package com.ankush.rajabhoj.strategy.flying;
 
 public class FlyRocketPowered implements FlyBehavior {
     public void fly() {
-        System.out.println("I'm flying with a rocket");
+        System.out.println("rocket powered flying");
     }
 }

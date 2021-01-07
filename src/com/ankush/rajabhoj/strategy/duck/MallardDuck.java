@@ -1,4 +1,4 @@
-package com.ankush.rajabhoj.strategy;
+package com.ankush.rajabhoj.strategy.duck;
 
 import com.ankush.rajabhoj.strategy.flying.FlyWithWings;
 import com.ankush.rajabhoj.strategy.quacking.Quack;
@@ -10,6 +10,6 @@ public class MallardDuck extends Duck {
     }
 
     public void display() {
-        System.out.println("I'm a real Mallard duck");
+        System.out.println("mallard duck");
     }
 }
