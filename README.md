@@ -5,10 +5,16 @@ maintainable Object-Oriented Software
 __Design pattern is well described reusable solution to common problem in
 software design and developement.__
 
+> ## Object-oriented basic
+>  * Abstraction
+>  * Encapsulation
+>  * Polymorphism
+>  * Inheritance
+
 > ## Design Principle
 > * Program to an interface, not an implementation.
 > * Identify the aspects of your application that vary and separate them from
-    > what stays the same.
+    > what stays the same (Encapsulate what varies).
 > * Favor composition over inheritance.
 
 ---
@@ -39,3 +45,12 @@ This pattern could be breaked by usage of
 The Strategy Pattern defines a family of algorithms, encapsulates each one, and
 makes them interchangeable. Strategy lets the algorithm vary independently from
 clients that use it.
+
+## Observer Pattern
+The Observer Pattern defines a one-to-many dependency between objects so that
+when one object changes state, all of its dependents are notified and updated
+automatically.
+
+When two objects are loosely coupled, they can interact, but have very little 
+knowledge of each other. The Observer Pattern provides an object design where 
+subjects and observers are loosely coupled.
