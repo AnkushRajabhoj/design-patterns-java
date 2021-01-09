@@ -16,6 +16,7 @@ software design and developement.__
 > * Identify the aspects of your application that vary and separate them from
     > what stays the same (Encapsulate what varies).
 > * Favor composition over inheritance.
+> * Strive for loosely coupled designs between objects that interact.
 
 ---
 
@@ -54,3 +55,5 @@ automatically.
 When two objects are loosely coupled, they can interact, but have very little 
 knowledge of each other. The Observer Pattern provides an object design where 
 subjects and observers are loosely coupled.
+
+Note: Observer Pattern is different from Publisher Subscriber Pattern
