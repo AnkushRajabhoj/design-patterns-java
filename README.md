@@ -3,7 +3,7 @@ All the design pattern in Head First - Design Patterns: Building Extensible and
 maintainable Object-Oriented Software
 
 __Design pattern is well described reusable solution to common problem in
-software design and developement.__
+software design and development.__
 
 > ## Object-oriented basic
 >  * Abstraction
@@ -17,6 +17,7 @@ software design and developement.__
     > what stays the same (Encapsulate what varies).
 > * Favor composition over inheritance.
 > * Strive for loosely coupled designs between objects that interact.
+> * Classes should be open for extension, but closed for modification.
 
 ---
 
@@ -47,7 +48,7 @@ The Strategy Pattern defines a family of algorithms, encapsulates each one, and
 makes them interchangeable. Strategy lets the algorithm vary independently from
 clients that use it.
 
-## Observer Pattern
+### Observer Pattern
 The Observer Pattern defines a one-to-many dependency between objects so that
 when one object changes state, all of its dependents are notified and updated
 automatically.
@@ -57,3 +58,10 @@ knowledge of each other. The Observer Pattern provides an object design where
 subjects and observers are loosely coupled.
 
 Note: Observer Pattern is different from Publisher Subscriber Pattern
+
+## Structural Design Patterns
+
+## Decorator Patter
+The Decorator Pattern attaches additional responsibilities to an object
+dynamically. Decorators provide a flexible alternative to subclassing for
+extending functionality.
