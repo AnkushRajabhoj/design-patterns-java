@@ -5,30 +5,29 @@ maintainable Object-Oriented Software
 __Design pattern is well described reusable solution to common problem in
 software design and development.__
 
-> ## Object-oriented basic
+```
+Patterns aren't invented, they are discovered.
+```
+
+## Object-oriented basic
 >  * Abstraction
 >  * Encapsulation
 >  * Polymorphism
 >  * Inheritance
 
-> ## Design Principle
+## Design Principle
 > * Program to an interface, not an implementation.
-> * Identify the aspects of your application that vary and separate them from
-    > what stays the same (Encapsulate what varies).
+> * Identify the aspects of your application that vary and separate them from 
+    what stays the same (Encapsulate what varies).
 > * Favor composition over inheritance.
 > * Strive for loosely coupled designs between objects that interact.
 > * Classes should be open for extension, but closed for modification.
 
----
-
+## Design patterns
 > Design Patterns are divided into tree parts:
 > * Creational
 > * Structural
 > * Behavioral
-
-```
-Patterns aren't invented, they are discovered.
-```
 
 ## Creational Design Patterns
 
@@ -36,16 +35,27 @@ Patterns aren't invented, they are discovered.
 The Singleton Pattern ensures a class has only one instance, and provides a
 global point of access to it.
 
-This pattern could be breaked by usage of
+This pattern could be broken by usage of
  * Serialization
  * Reflection
  * Multiple class loader
+
+### Simple Factory
+### Factory Method
+### Abstract Factory
+
+## Structural Design Patterns
+
+### Decorator Patter
+The Decorator Pattern attaches additional responsibilities to an object
+dynamically. Decorators provide a flexible alternative to subclassing for
+extending functionality.
 
 ## Behavioral Design Patterns
 
 ### Strategy Pattern
 The Strategy Pattern defines a family of algorithms, encapsulates each one, and
-makes them interchangeable. Strategy lets the algorithm vary independently from
+makes them interchangeable. Strategy lets the algorithm vary independently of
 clients that use it.
 
 ### Observer Pattern
@@ -58,10 +68,3 @@ knowledge of each other. The Observer Pattern provides an object design where
 subjects and observers are loosely coupled.
 
 Note: Observer Pattern is different from Publisher Subscriber Pattern
-
-## Structural Design Patterns
-
-## Decorator Patter
-The Decorator Pattern attaches additional responsibilities to an object
-dynamically. Decorators provide a flexible alternative to subclassing for
-extending functionality.

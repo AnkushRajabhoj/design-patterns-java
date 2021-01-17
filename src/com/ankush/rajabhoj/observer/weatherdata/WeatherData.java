@@ -1,4 +1,7 @@
-package com.ankush.rajabhoj.observer;
+package com.ankush.rajabhoj.observer.weatherdata;
+
+import com.ankush.rajabhoj.observer.display.Observer;
+import com.ankush.rajabhoj.observer.weatherdata.Subject;
 
 import java.util.ArrayList;
 import java.util.List;

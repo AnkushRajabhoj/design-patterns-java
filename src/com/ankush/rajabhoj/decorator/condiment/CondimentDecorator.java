@@ -1,4 +1,6 @@
-package com.ankush.rajabhoj.decorator;
+package com.ankush.rajabhoj.decorator.condiment;
+
+import com.ankush.rajabhoj.decorator.beverage.Beverage;
 
 public abstract class CondimentDecorator extends Beverage {
     public Beverage beverage;

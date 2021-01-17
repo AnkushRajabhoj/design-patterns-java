@@ -1,4 +1,4 @@
-package com.ankush.rajabhoj.decorator;
+package com.ankush.rajabhoj.decorator.beverage;
 
 public abstract class Beverage {
     public enum Size { TALL, GRANDE, VENTI };

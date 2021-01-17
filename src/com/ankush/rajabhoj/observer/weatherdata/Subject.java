@@ -1,4 +1,6 @@
-package com.ankush.rajabhoj.observer;
+package com.ankush.rajabhoj.observer.weatherdata;
+
+import com.ankush.rajabhoj.observer.display.Observer;
 
 public interface Subject {
     public void registerObserver(Observer o);

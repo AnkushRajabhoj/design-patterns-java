@@ -1,7 +1,6 @@
 package com.ankush.rajabhoj.observer.display;
 
-import com.ankush.rajabhoj.observer.Observer;
-import com.ankush.rajabhoj.observer.WeatherData;
+import com.ankush.rajabhoj.observer.weatherdata.WeatherData;
 
 public class StatisticsDisplay implements Observer, DisplayElement {
     private float maxTemp = 0.0f;
